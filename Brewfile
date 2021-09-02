@@ -3,7 +3,6 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/services"
-tap "shivammathur/php"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl@1.1"
 # Ruby environment tool
@@ -21,6 +20,9 @@ brew "mongosh"
 # Open source relational database management system
 brew "mysql", restart_service: true
 # General-purpose scripting language
+brew "php"
+# Web interface for MySQL and MariaDB
+brew "phpmyadmin"
 # Install various Ruby versions and implementations
 brew "ruby-build"
 # Ruby version manager
@@ -42,5 +44,10 @@ brew "zsh-syntax-highlighting"
 # Everything you need to get started with Heroku
 brew "heroku/brew/heroku"
 # JDK from the Java User Group (JUG)
+brew "git"
+# UNIX shell (command interpreter)
+brew "zsh"
+cask "google-chrome"
+cask "visual-studio-code"
 cask "adoptopenjdk"
 cask "gulp"
